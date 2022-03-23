@@ -1,0 +1,19 @@
+{
+    "name": "webfoo/position-fieldtype",
+    "autoload": {
+        "psr-4": {
+            "Webfoo\\PositionFieldtype\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Position Fieldtype",
+            "description": "Position Fieldtype addon"
+        },
+        "laravel": {
+            "providers": [
+                "Webfoo\\PositionFieldtype\\ServiceProvider"
+            ]
+        }
+    }
+}
